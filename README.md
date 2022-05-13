@@ -16,6 +16,8 @@ The user should have a fresh game of Worlde ready to play. Once the code is comp
 certain 5-letter word into their game of worlde. The user will take the result of their guess and input it back into the game(where
 gray, yellow and green letters have occured). The program will continue this until the word has been guessed.
 
+<p align="center">
 ![Alt text](/images/result.png "Irate")
 
 ![Alt text](/images/irate.png "Irate")
+</p>
