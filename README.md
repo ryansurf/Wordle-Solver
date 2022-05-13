@@ -4,11 +4,11 @@ Wordle Solver is a program that helps the user solve the popular online game, Wo
 
 ## Usage
 
-'''bash
+```bash
 ./make
 
 ./solver
-'''
+```
 
 ## How it works
 
