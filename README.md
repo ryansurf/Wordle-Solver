@@ -17,3 +17,5 @@ certain 5-letter word into their game of worlde. The user will take the result o
 gray, yellow and green letters have occured). The program will continue this until the word has been guessed.
 
 ![Alt text](/images/result.png "Irate")
+
+![Alt text](/images/irate "Irate")
