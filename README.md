@@ -18,4 +18,4 @@ gray, yellow and green letters have occured). The program will continue this unt
 
 ![Alt text](/images/result.png "Irate")
 
-![Alt text](/images/irate.WebP "Irate")
+![Alt text](/images/irate.png "Irate")
