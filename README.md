@@ -18,10 +18,8 @@ gray, yellow and green letters have occured). The program will continue this unt
 
 <p align="center">
   <img src="/images/result.png" />
+  <img src="/images/irate.png" />
 </p>
 
-![Alt text](/images/result.png "Irate")
-
-![Alt text](/images/irate.png "Irate")
 
 
