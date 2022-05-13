@@ -12,7 +12,6 @@
 // vocabulary, then this function will return 15.
 int score_letter(char letter, char **vocabulary, size_t num_words) {
 
-    // TODO(you): implement this function!
     int count = 0;
     for(size_t i = 0; i < num_words; i++)
     {
@@ -24,21 +23,14 @@ int score_letter(char letter, char **vocabulary, size_t num_words) {
             }
         }
     }
-    //END MY CODE
+
     return count;
 
 }
 
 
-// Calculate the score for a given word, where the letter_scores array has
-// already been filled out for you and is guaranteed to be of length 26. Slot 0
-// contains the score for 'a', and slot 25 contains the score for 'z'.
-// The score for a word is the sum of all of the letter scores, *for unique
-// letters*. So if the letter 'e' occurs three times, it only contributes to the
-// score once.
 int score_word(char *word, int *letter_scores) {
 
-    // TODO(you): implement this function!
     int sum = 0;
     char compare[26] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n',                        'o','p','q','r','s','t','u','v','w','x','y','z'};    
 
@@ -55,15 +47,11 @@ int score_word(char *word, int *letter_scores) {
         }
     }    
     
-    //END MY CODE
+
     return sum;
 
 }
 
-// Returns the optimum guess, based on our heuristic.
-// This one works, you don't have to change it.
-// Note that this function allocates a new string every time it runs, and those
-// strings will need to be freed!
 char *get_guess(char **vocabulary, size_t num_words) {
   int letter_scores[26];
 
@@ -95,7 +83,6 @@ char *get_guess(char **vocabulary, size_t num_words) {
 size_t filter_vocabulary_gray(char letter, char **vocabulary,
                               size_t num_words) {
 
-    // TODO(you): implement this function!
     int count = 0;
     for(size_t i = 0; i < num_words; i++)
     {
@@ -110,7 +97,7 @@ size_t filter_vocabulary_gray(char letter, char **vocabulary,
         }
     }
 
-    //END MY CODE
+
     return count;
 
 }
@@ -123,7 +110,6 @@ size_t filter_vocabulary_gray(char letter, char **vocabulary,
 size_t filter_vocabulary_yellow(char letter, int position, char **vocabulary,
                                 size_t num_words) {
 
-    // TODO(you): implement this function!
     int count = 0;
     for(size_t i = 0; i < num_words; i++)
     {
@@ -157,7 +143,6 @@ size_t filter_vocabulary_yellow(char letter, int position, char **vocabulary,
 size_t filter_vocabulary_green(char letter, int position, char **vocabulary,
                                size_t num_words) {
 
-    // TODO(you): implement this function!
     int count = 0;
     for(size_t i = 0; i < num_words; i++)
     {
