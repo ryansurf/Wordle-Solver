@@ -1,6 +1,6 @@
 # Wordle-Solver
 
-Wordle Solver is a program that helps the user solve the popular online game, Wordle(https://www.nytimes.com/games/wordle/index.html)
+Wordle Solver is a program that helps the user solve the popular online game Wordle(https://www.nytimes.com/games/wordle/index.html)
 
 ## Usage
 
