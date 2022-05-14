@@ -5,7 +5,7 @@ Wordle Solver is a program that helps the user solve the popular online game Wor
 ## Usage
 
 ```bash
-./make
+make
 
 ./solver
 ```
